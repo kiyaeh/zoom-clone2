@@ -1,0 +1,127 @@
+#video-grid {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+video {
+  height: 300px;
+  width: 400px;
+  object-fit: cover;
+  padding: 8px;
+}
+* {
+  margin: 0;
+  padding: 0;
+}
+
+/* .main_flex {
+    flex: 0.8;
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .main-controls {
+    color: #d2d2d2;
+    display: felx;
+    justify-content: space-between;
+    padding: 5px;
+  }
+  .main_controls_block {
+    display: flex;
+  }
+  .main_controls_button {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 8px 10px;
+    min-width: 80px;
+    cursor: pointer;
+  }
+  .main_controls_button:hover {
+    background-color: #343434;
+    border-radius: 5px;
+  }
+  .main_controls_button i {
+    font-size: 24px;
+  } */
+.main {
+  height: 100vh;
+  display: flex;
+}
+.main_left {
+  flex: 0.8;
+  display: flex;
+  flex-direction: column;
+}
+.main_right {
+  flex: 0.2;
+}
+.main_videos {
+  flex-grow: 1;
+  background-color: black;
+  display: felx;
+  justify-content: center;
+  align-items: center;
+  padding: 40px;
+}
+.main_right {
+  background-color: #242424;
+  border-left: 1px solid #3d3d42;
+}
+.main_controls {
+  color: #d2d2d2;
+  display: flex;
+  justify-content: space-between;
+  padding: 5px;
+  background-color: black;
+}
+.main_controls_block {
+  display: flex;
+}
+.main_controls_button {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 8px 10px;
+  min-width: 80px;
+  cursor: pointer;
+}
+.main_controls_button:hover {
+  background-color: #343434;
+  border-radius: 5px;
+}
+.main_controls_button i {
+  font-size: 24px;
+}
+.main_right {
+  display: flex;
+  flex-direction: column;
+}
+.main_header {
+  padding-top: 5px;
+  color: #f5f5f5;
+  text-align: center;
+}
+.main_chat_window {
+  flex-grow: 1;
+  overflow-y: auto;
+}
+.messages {
+  color: white;
+  list-style: none;
+}
+.main_message_container {
+  padding: 22px 12px;
+  display: flex;
+}
+.main_message_container input {
+  flex-grow: 1;
+  background-color: transparent;
+  border: none;
+  color: #f5f5f5;
+}
+.leave_meeting {
+  color: #eb534b;
+}
